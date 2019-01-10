@@ -63,7 +63,7 @@ let state = {...people, ...stuff};
 
 let newPeople = ['Odie', ...people, 'Garfield'];
 const newStuff = {...stuff, cars:[...stuff.cars, 'Subaru']};
-let newState = {...state, ['Odie', ...people, 'Garfield'], };
+let newState = {...state, people:['Odie', ...people, 'Garfield'], };
 
 // console.log(newPeople);
 // console.log(newStuff);
